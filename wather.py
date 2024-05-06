@@ -14,7 +14,7 @@ def get_weather(api_key, location):
         print("Error fetching weather data. Please check the location and try again.")
 
 def main():
-    api_key = "2c0f0bfedeee3835f6ba9c4d98a1c9ae"  # Replace with your OpenWeatherMap API key
+    api_key = "YOUR_API_KEY"  # Replace with your OpenWeatherMap API key
     location = input("Enter a city name or ZIP code: ")
     get_weather(api_key, location)
 
